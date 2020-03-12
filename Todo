@@ -1,0 +1,44 @@
+Todo:
+X = fully done; x = partially done
+General:
+      - Need a total re-write of DocumentFrame, automagically doing all necessary            
+      | operations and method calls to set-up a DocumentFrame with an opened file.
+      | Need to have an int to keep track of open frames, openDocumentFrames.size()
+      - is incorrect.  Re-think implementation of classes that are confusing.
+        Beautify so I can understand it better
+        Try to use XML serialization, so I can see what is happening.
+        A file history menu item.
+x       Remember the files that were opened. -- works sometimes
+x       Open them on startup.  - works when non-null
+x       May involve serialization.  - it does
+X       Events may not work because source is not correct. (Listener not on correct object).
+Website:
+
+Options:
+X       Do not show first time.
+X       Get overwritten often.
+X       If you load up the options dialog, they get saved correctly.
+X       If you do not, they only save the size.
+X       When you serialize the object, all information gets saved.  No matter what (yet).
+TextArea:
+x        Fix position bug -- not being subtracted -- does not work sometimes -- need dedicated integer
+X        A pane is overlaid when you start out w/ a new pane and add a new one.
+x        Add auto-indent capability. -- need to do it a different way -- editor pane does
+x        not have same methods to find current place.  getCaretPosition();
+Xx       Add coloring. -- need to add colors -- options are set, need to implement
+Help:
+        Add internal help. -- critical
+X       A correct readme file.
+Xx      An installer. -- doesn't have to be very sophisticated
+Tools:
+        Add error checker (Braces, etc) -- nice to have
+Edit:
+X       Add Undo
+X       Add Copy  
+X       Add Cut   
+X       Add Paste
+         
+        
+
+                
+
